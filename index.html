@@ -373,8 +373,72 @@
     </a>
     </li>
 </ul>
-    </div>
-    </div>
+</div>
+<form class="footer-form">
+   <div>
+        <p>Subscribe</p>
+                <label class="footer-label" aria-label="footer-email">
+                <input class="footer-input" type="email" name="email" id="email" placeholder="E-mail"/>
+            </label>
+   </div>
+            <button class="footer-btn" type="submit">Subscribe
+            <svg class="icon-frame" width="24" height="24">
+                <use href="./images/icons.svg#icon-frame"></use>
+            </svg>
+        </button>
+    </form>
+       </div>
     </footer>
+    <div class="backdrop open">
+        <div class="modal">
+        <button class="close" type="button-modal">
+            <svg class="btn-modal" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button> 
+       <p class="subject-modal"> Leave your contacts and we will call you back</p>
+      <form class="subjec-form"> 
+        <label for="name" class="modal-label">Name</label>
+      <div class="modal-wrap">
+            <input type="text" class="subjec-input" name="name" required/>
+        <svg class="icon-modal" width="18" height="24">
+            <use href="./images/icons.svg#icon-person"></use>
+        </svg>
+      </div>
+    <label for="phone" class="modal-label">Phone</label>
+   <div class="modal-wrap">
+        <input type="tel" class="subjec-input" name="phone" required/>
+        <svg class="icon-modal" width="18" height="24">
+            <use href="./images/icons.svg#icon-phone"></use>
+        </svg>
+   </div>
+<label for="email" class="modal-label">Email</label>
+   <div class="modal-wrap">
+        <input type="email" class="subjec-input" name="email" required/>
+    <svg class="icon-modal" width="18" height="24">
+        <use href="./images/icons.svg#icon-email"></use>
+    </svg>
+   </div>
+<label for="text" class="modal-label">Comment</label>
+   <textarea class="modal-textarea" name="text" id="text" placeholder="Text input" style="width: 360px; height: 120px;"></textarea>
+</form>
+<div class="modal-checkbox">
+    <input type="checkbox"
+     class="check-modal visually-hidden"
+      name="policy"
+       id="policy"
+       value="true"/>
+<label for="policy" class="check-text">
+<span class="modal-checkbox">
+<svg class="modal-check-icon" width="10" height="8">
+            <use href="./images/icons.svg#icon-vector"></use>
+        </svg>
+    </span>
+    I accept the terms and conditions of the <a class="text" href="">Privacy Policy</a>
+    </label>
+</div>
+   <button class="form-button" type="submit">Send</button>
+    </div>
+    </div>
       </body>
 </html>
