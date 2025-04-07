@@ -720,10 +720,13 @@ a {
 
 .check-modal:checked+.check-text .modal-check {
   background-color: #404bbf;
-  border: none;
   border-radius: 2px;
   border: 1px solid #404bbf;
   fill: #f4f4fd;
+}
+
+.check-modal:checked+.modal-check {
+  border: none;
 }
 
 .text {
