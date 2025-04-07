@@ -515,6 +515,10 @@ a {
   border: none;
 }
 
+.icon-frame {
+  margin-left: 16px;
+}
+
 .footer-btn:hover,
 .footer-btn:focus {
   background-color: #404bbf;
@@ -699,8 +703,6 @@ a {
   color: #8e8f99;
 }
 
-
-
 .modal-check {
   width: 16px;
   height: 16px;
@@ -722,6 +724,13 @@ a {
   border-radius: 2px;
   border: 1px solid #404bbf;
   fill: #f4f4fd;
+}
+
+.text {
+  color: #4d5ae5;
+  line-height: 1.33;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
 }
 
 .form-button {
