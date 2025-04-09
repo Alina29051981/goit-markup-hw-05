@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="vebstudio">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
 
@@ -45,7 +46,7 @@
             <div class="container">
                 <h1 class="title-text"> Effective Solutions for Your Business
                 </h1>
-                <button class="title-button" type="button">Order Service</button>
+                <button class="title-button" type="button" data-modal-open>Order Service</button>
             </div>
         </section>
         <section class="subtitle">
@@ -401,9 +402,9 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop" data-modal>
         <div class="modal">
-            <button class="close" type="button">
+            <button class="close" type="button" data-modal-close>
                 <svg class="btn-modal" width="8" height="8">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
